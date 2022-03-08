@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Shared Hosting | THESOFTKING</title>
+    <!--===== Line Awesome =======-->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="plugins/line-awesome/css/line-awesome.min.css">
+    <!--Bootstrap-5-->
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <!--Slick Slider Css-->
+    <link rel="stylesheet" href="plugins/slick-1.8.1/slick.css">
+    <!--Animate css-->
+    <link rel="stylesheet" href="css/lib/animate.css">
+    <!---Main Style Css-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Responsive CSS-->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<!--==== Preloader =====-->
+<div class="preloader">
+    <div class="preloader__content">
+        <h3 class="preloader__text">TSK</h3>
+        <div class="preloader__circle"></div>
+    </div>
+</div>
+<!-- Scroll up Button -->
+<div class="scroll-to-top">
+    <span class="scroll-icon">
+      <i class="las la-arrow-up"></i>
+    </span>
+</div>
+<!--====== Header Section Start ======-->
+<header class="header position-static">
+    <div class="header__top">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-sm-7">
+                    <ul class="header__info-list d-flex flex-warp align-items-center justify-content-sm-start justify-content-center">
+                        <li>
+                            <a href="#"><i class="las la-envelope"></i>software@thesoftking</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-5 mt-sm-0 mt-2">
+                    <ul class="header__info-list d-flex flex-warp align-items-center justify-content-sm-end justify-content-center">
+                        <li class="cart-view">
+                            <a class="header-cart-btn" href="#"><i class="las la-shopping-cart"><span class="cart-count">0</span></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="las la-sign-in-alt"></i>Login</a>
+                        </li>
+                        <li><a href="#"><i class="las la-user-plus"></i>Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Header Bottom-->
+    <div class="header__bottom">
+        <div class="container-xl">
+            <nav class="navbar navbar-expand-lg p-0 align-items-center">
+                <a class="site-logo site-title" href="#">
+                    <img src="img/logo.png" alt="THESOFTKING">
+                </a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="menu-toggle"></span>
+                </button>
+                <div id="navbarSupportedContent" class="collapse navbar-collapse mt-lg-0 mt-3">
+                    <button class="menu-sidebar-close"><i class="las la-times"></i></button>
+                    <ul class="navbar-nav main-menu m-auto">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="marketplace.html">Marketplace</a></li>
+                        <!--=========Sub-Menu Start==========-->
+                        <li class="menu_has_children nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown">About</a>
+                            <ul class="sub-menu dropdown-menu">
+                                <li><a href="about.html">Company Intro</a></li>
+                                <li><a href="giving-back.html">Giving Back</a></li>
+                                <li><a href="#">Our Timeline</a></li>
+                                <li><a href="#">Articles</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_has_children nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown">Products</a>
+                            <ul class="sub-menu dropdown-menu">
+                                <li><a href="php-script.html">PHP Script</a></li>
+                                <li><a href="html-template.html">HTML Template</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu_has_children nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown">Hosting</a>
+                            <ul class="sub-menu dropdown-menu">
+                                <li><a href="basic-hosting.html">Basic Shared Hosting</a></li>
+                                <li><a href="premium-hosting.html">Premium Shared Hosting</a></li>
+                                <li><a href="#">Virtual Private Server (VPS)</a></li>
+                                <li><a href="#">Dedicated Server</a></li>
+                                <li><a href="#">Remote Desktop (RDP)</a></li>
+                                <li><a href="#">Data Center</a></li>
+                                <li><a href="#">Domain Name Registration</a></li>
+                            </ul>
+                        </li>
+                        <!--====Sub-Menu End====-->
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+
+                    <div class="nav-right">
+                        <button class="header__search-btn" type="button">
+                            <i class="las la-search"></i>
+                        </button>
+                        <form action="#" class="header-search-form" method="get">
+                            <input type="text" class="form--control" name="search" placeholder="Search here....">
+                            <button class="header-search-form__btn" type="submit">
+                                <i class="las la-search"></i>
+                            </button>
+                        </form>
+                        <a href="#" class="btn btn-md btn--base d-flex align-items-center justify-content-center">Hire Us</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="main-wrapper">
+<section class="inner-hero bg-img" style="background-image: url(./img/inner-hero.jpg);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <h2 class="inner-hero__title text-white">Premium Shared Hosting</h2>
+                <p>Feel the speed of our ultra modern servers built with premium hardware with premium networking and driven by NVMe SSD for the best performance.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====== Premium Hosting Overview =======-->
+<section class="pb-100 pt-100 section--bg">
+    <div class="container">
+        <div class="row justify-content-center gy-4">
+            <!--Item-01-->
+            <div class="col-lg-3 col-md-4 col-sm-6 hosting-feature-item">
+                <div class="hosting-feature-card">
+                    <div class="hosting-feature-card__icon">
+                        <i class="lab la-creative-commons-sampling"></i>
+                    </div>
+                    <div class="hosting-feature-card__content">
+                        <h4 class="hosting-feature-card__title">99.9% Uptime</h4>
+                    </div>
+                </div>
+            </div>
+            <!--Item-02-->
+            <div class="col-lg-3 col-md-4 col-sm-6 hosting-feature-item">
+                <div class="hosting-feature-card">
+                    <div class="hosting-feature-card__icon">
+                        <i class="las la-headset"></i>
+                    </div>
+                    <div class="hosting-feature-card__content">
+                        <h4 class="hosting-feature-card__title">Fully Managed</h4>
+                    </div>
+                </div>
+            </div>
+            <!--Item-03-->
+            <div class="col-lg-3 col-md-4 col-sm-6 hosting-feature-item">
+                <div class="hosting-feature-card">
+                    <div class="hosting-feature-card__icon">
+                        <i class="las la-clock"></i>
+                    </div>
+                    <div class="hosting-feature-card__content">
+                        <h4 class="hosting-feature-card__title">Instant Setup</h4>
+                    </div>
+                </div>
+            </div>
+            <!--Item-04-->
+            <div class="col-lg-3 col-md-4 col-sm-6 hosting-feature-item">
+                <div class="hosting-feature-card">
+                    <div class="hosting-feature-card__icon">
+                        <i class="las la-sync-alt"></i>
+                    </div>
+                    <div class="hosting-feature-card__content">
+                        <h4 class="hosting-feature-card__title">Free Backup</h4>
+                    </div>
+                </div>
+            </div>
+            <!--Item-05-->
+            <div class="col-lg-3 col-md-4 col-sm-6 hosting-feature-item">
+                <div class="hosting-feature-card">
+                    <div class="hosting-feature-card__icon">
+                        <i class="lab la-cpanel"></i>
+                    </div>
+                    <div class="hosting-feature-card__content">
+                        <h4 class="hosting-feature-card__title">cPanel Included</h4>
+                    </div>
+                </div>
+            </div>
+            <!--Item-06-->
+            <div class="col-lg-3 col-md-4 col-sm-6 hosting-feature-item">
+                <div class="hosting-feature-card">
+                    <div class="hosting-feature-card__icon">
+                        <i class="las la-cogs"></i>
+                    </div>
+                    <div class="hosting-feature-card__content">
+                        <h4 class="hosting-feature-card__title">1 Click Installer</h4>
+                    </div>
+                </div>
+            </div>
+            <!--Item-07-->
+            <div class="col-lg-3 col-md-4 col-sm-6 hosting-feature-item">
+                <div class="hosting-feature-card">
+                    <div class="hosting-feature-card__icon">
+                        <i class="las la-user-shield"></i>
+                    </div>
+                    <div class="hosting-feature-card__content">
+                        <h4 class="hosting-feature-card__title">Highly Secured</h4>
+                    </div>
+                </div>
+            </div>
+            <!--Item-08-->
+            <div class="col-lg-3 col-md-4 col-sm-6 hosting-feature-item">
+                <div class="hosting-feature-card">
+                    <div class="hosting-feature-card__icon">
+                        <i class="las la-server"></i>
+                    </div>
+                    <div class="hosting-feature-card__content">
+                        <h4 class="hosting-feature-card__title">SSD Only</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--===== Hosting Plans Section =======-->
+<section class="pt-100 pb-100 dark--overlay bg_img" style="background-image: url(./img/hosting-bg.jpg);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xxl-7 col-md-11 col-lg-8">
+                <div class="section-header text-center">
+                    <h2 class="section-title text-white">Premium Shared Hosting Plans</h2>
+                    <p>Shared Hosting includes tons of premium features with no added costs.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center gy-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="package-card">
+                    <div class="package-card__header">
+                        <div class="left">
+                            <h4 class="package-card__title">Starter</h4>
+                        </div>
+                        <div class="right">
+                            <h4 class="package-card__price text-white">$19.99</h4>
+                            <span>Annually</span>
+                        </div>
+                    </div>
+                    <div class="package-card__body text-center">
+                        <ul class="package-card__list">
+                            <li>1 GB Disk Space</li>
+                            <li>10 GB Bandwidth / Month</li>
+                            <li>01 Website</li>
+                            <li>0 Addon Domain</li>
+                            <li>0 Sub Domain</li>
+                            <li>1 FTP Account</li>
+                            <li>1 MySQL Database</li>
+                            <li>1 E-Mail Account</li>
+                            <li>cPanel Control Panel</li>
+                            <li>FREE SSL Certificates</li>
+                            <li>LiteSpeed with LSCache</li>
+                            <li>Advanced Security Shield</li>
+                            <li>Complimentary DDoS Protection</li>
+                            <li>JetBackup Included</li>
+                            <li>Technical Support Included</li>
+                        </ul>
+                        <a class="btn btn-md btn--base w-100 mt-4" href="#">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="package-card">
+                    <div class="package-card__header">
+                        <div class="left">
+                            <h4 class="package-card__title">Starter</h4>
+                        </div>
+                        <div class="right">
+                            <h4 class="package-card__price text-white">$19.99</h4>
+                            <span>Annually</span>
+                        </div>
+                    </div>
+                    <div class="package-card__body text-center">
+                        <ul class="package-card__list">
+                            <li>1 GB Disk Space</li>
+                            <li>10 GB Bandwidth / Month</li>
+                            <li>01 Website</li>
+                            <li>0 Addon Domain</li>
+                            <li>0 Sub Domain</li>
+                            <li>1 FTP Account</li>
+                            <li>1 MySQL Database</li>
+                            <li>1 E-Mail Account</li>
+                            <li>cPanel Control Panel</li>
+                            <li>FREE SSL Certificates</li>
+                            <li>LiteSpeed with LSCache</li>
+                            <li>Advanced Security Shield</li>
+                            <li>Complimentary DDoS Protection</li>
+                            <li>JetBackup Included</li>
+                            <li>Technical Support Included</li>
+                        </ul>
+                        <a class="btn btn-md btn--base w-100 mt-4" href="#">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="package-card">
+                    <div class="package-card__header">
+                        <div class="left">
+                            <h4 class="package-card__title">Starter</h4>
+                        </div>
+                        <div class="right">
+                            <h4 class="package-card__price text-white">$19.99</h4>
+                            <span>Annually</span>
+                        </div>
+                    </div>
+                    <div class="package-card__body text-center">
+                        <ul class="package-card__list">
+                            <li>1 GB Disk Space</li>
+                            <li>10 GB Bandwidth / Month</li>
+                            <li>01 Website</li>
+                            <li>0 Addon Domain</li>
+                            <li>0 Sub Domain</li>
+                            <li>1 FTP Account</li>
+                            <li>1 MySQL Database</li>
+                            <li>1 E-Mail Account</li>
+                            <li>cPanel Control Panel</li>
+                            <li>FREE SSL Certificates</li>
+                            <li>LiteSpeed with LSCache</li>
+                            <li>Advanced Security Shield</li>
+                            <li>Complimentary DDoS Protection</li>
+                            <li>JetBackup Included</li>
+                            <li>Technical Support Included</li>
+                        </ul>
+                        <a class="btn btn-md btn--base w-100 mt-4" href="#">Order Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--========== Shared Hosting Feature Section ==========-->
+<section class="pt-100 pb-100 section--bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xxl-7 col-md-11 col-lg-8">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Shared Hosting Features</h2>
+                    <p>All of our servers comes with premium hardware with premium networking and driven by solid state drives. It's time to stop worrying about the status of your website.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row gy-4">
+            <div class="col-lg-4 col-sm-6">
+                <div class="hosting-feature-card-two">
+                  <div class="icon">
+                    <i class="lab la-creative-commons-sampling"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="text-title">High Performance</h4>
+                    <p class="mt-2">All Shared Hosting plans are built with speed, security and features in mind. We include cPanel, Multiple PHP versions, Softaculous &amp; Automated Backups.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="hosting-feature-card-two">
+                  <div class="icon">
+                    <i class="la la-shield-alt"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="text-title">Enhanced Security</h4>
+                    <p class="mt-2">To ensure security of websites we use the best softwares on the Planet. We try our level best and we've 24/7 monitoring system on servers to protect you.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="hosting-feature-card-two">
+                  <div class="icon">
+                    <i class="la la-sync-alt"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="text-title">Data Backups</h4>
+                    <p class="mt-2">Your hosting account is backed daily. We keep 7 sets of backup as standard. We use dedicated backup servers, providing fast &amp; easy file rollback abilities.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="hosting-feature-card-two">
+                  <div class="icon">
+                    <i class="lar la-clock"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="text-title">Instant Setup</h4>
+                    <p class="mt-2">We offer instant account setup. As soon as you make successful payment, your web hosting will be activated instantly without waste your time.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="hosting-feature-card-two">
+                  <div class="icon">
+                    <i class="la la-cogs"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="text-title">Auto Installer</h4>
+                    <p class="mt-2">Softaculous is included, for FREE, you can install any one of hundreds of packages with just a single click, including blogs, ecommerce, and more.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="hosting-feature-card-two">
+                  <div class="icon">
+                    <i class="lab la-cpanel"></i>
+                  </div>
+                  <div class="content">
+                    <h4 class="text-title">cPanel Included</h4>
+                    <p class="mt-2">Having some no-name control panel is a mistake, making migrations and support painfully difficult. That's why we base our servers on cPanel.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<!--===== Footer Section Start =======-->
+<footer class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="brand-slider">
+                <div class="brand-iteam">
+                    <img src="img/01.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/02.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/03.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/04.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/05.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/06.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/02.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/03.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/04.png" alt="brand-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-middle">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-sm-8">
+                    <div class="footer-widget">
+                        <a href="#" class="footer-logo">
+                            <img src="img/footer-logo.png" alt="footer-img">
+                        </a>
+                        <p class="mt-4">Founded in 2011. Architecting secure, efficient, and user-friendly items by writing standard and well-documented codes to turn ideas into reality. Working on a daily basis to bring unique, standard, and trendy products for various marketplace and clients.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6">
+                    <div class="footer-widget">
+                        <h3 class="footer-widget__title text-white">Company</h3>
+                        <ul class="short-link-list">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Timeline</a></li>
+                            <li><a href="#">Data Center</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Career with us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6">
+                    <div class="footer-widget">
+                        <h3 class="footer-widget__title text-white">Our Expertise</h3>
+                        <ul class="short-link-list">
+                            <li><a href="#">Web Application</a></li>
+                            <li><a href="#">Mobile Apps</a></li>
+                            <li><a href="#">UI/UX</a></li>
+                            <li><a href="#">Plugins & Extensions</a></li>
+                            <li><a href="#">IT Consultancy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6">
+                    <div class="footer-widget">
+                        <h3 class="footer-widget__title text-white">Terms</h3>
+                        <ul class="short-link-list">
+                            <li><a href="#">Announcements</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms Of Service</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">Licence Info</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6">
+                    <div class="footer-widget">
+                        <h3 class="footer-widget__title text-white">Support</h3>
+                        <ul class="short-link-list">
+                            <li><a href="#">F.A.Q</a></li>
+                            <li><a href="#">Get Support</a></li>
+                            <li><a href="#">Member Area</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Affiliate Program</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-6 col-md-8 text-center text-md-start">
+                    <h6 class="copyright-text text-white">
+                        <strong>© 2011 - 2022 THESOFTKING Limited. All Rights Reserved.</strong>
+                    </h6>
+                    <p class="mt-3">THESOFTKING Limited is not partnered with any other company or person. We work as a team and do not have any reseller, distributor, or partner!</p>
+                </div>
+                <div class="col-xl-4 col-md-4 mt-md-0 mt-sm-4 mt-4 ">
+                    <h6 class="text-white text-md-end text-center mb-md-4">Stay Connected</h6>
+                    <ul class="footer-soical-links d-flex align-items-center justify-content-center justify-content-md-end">
+                        <li><a href="#"><i class="lab la-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="lab la-twitter"></i></a></li>
+                        <li><a href="#"><i class="lab la-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="lab la-youtube"></i></a></li>
+                        <li><a href="#"><i class="lab la-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--Jquery File-->    
+<script src="js/lib/jquery.min.js"></script>
+<!--Bootstrap-5-->
+<!-- <script src="js/lib/bootstrap.min.js"></script> -->
+<script src="js/lib/bootstrap.bundle.min.js"></script>
+<script src="js/lib/jquery-migrate-1.2.1.min.js"></script>
+<script src="plugins/slick-1.8.1/slick.min.js"></script>
+<script src="js/lib/wow.min.js"></script>
+<script src="js/lib/AutoTyping.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

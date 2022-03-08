@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THESOFTKING | Team of Creative Designers & Developers</title>
+    <!--===== Line Awesome =======-->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="plugins/line-awesome/css/line-awesome.min.css">
+    <!--Bootstrap-5-->
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <!--Slick Slider Css-->
+    <link rel="stylesheet" href="plugins/slick-1.8.1/slick.css">
+    <!--Animate css-->
+    <link rel="stylesheet" href="css/lib/animate.css">
+    <!---Main Style Css-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Responsive CSS-->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!--==== Preloader =====-->
+    <div class="preloader">
+        <div class="preloader__content">
+            <h3 class="preloader__text">TSK</h3>
+            <div class="preloader__circle"></div>
+        </div>
+    </div>
+    <!--==== Scroll up =====-->
+    <div class="scroll-to-top">
+        <span class="scroll-icon">
+          <i class="las la-arrow-up"></i>
+        </span>
+    </div>
+    <header class="header">
+        <div class="header__top">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <ul class="header__info-list d-flex flex-warp align-items-center justify-content-sm-start justify-content-center">
+                            <li>
+                                <a href="#"><i class="las la-envelope"></i>software@thesoftking</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-5 mt-sm-0 mt-2">
+                        <ul class="header__info-list d-flex flex-warp align-items-center justify-content-sm-end justify-content-center">
+                            <li class="cart-view">
+                                <a class="header-cart-btn" href="#"><i class="las la-shopping-cart"><span class="cart-count">0</span></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="las la-sign-in-alt"></i>Login</a>
+                            </li>
+                            <li><a href="#"><i class="las la-user-plus"></i>Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Header Bottom-->
+        <div class="header__bottom">
+            <div class="container-xl">
+                <nav class="navbar navbar-expand-lg p-0 align-items-center fixed">
+                    <a class="site-logo site-title" href="#">
+                        <img src="img/logo.png" alt="THESOFTKING">
+                    </a>
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="menu-toggle"></span>
+                    </button>
+                    <div id="navbarSupportedContent" class="collapse navbar-collapse mt-lg-0 mt-3">
+                        <button class="menu-sidebar-close"><i class="las la-times"></i></button>
+                        <ul class="navbar-nav main-menu m-auto">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="marketplace.html">Marketplace</a></li>
+                            <!--=========Sub-Menu Start==========-->
+                            <li class="menu_has_children nav-item">
+                                <a class="nav-link" href="#" data-bs-toggle="dropdown">About</a>
+                                <ul class="sub-menu dropdown-menu">
+                                    <li><a href="about.html">Company Intro</a></li>
+                                    <li><a href="giving-back.html">Giving Back</a></li>
+                                    <li><a href="#">Our Timeline</a></li>
+                                    <li><a href="#">Articles</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu_has_children nav-item">
+                                <a class="nav-link" href="#" data-bs-toggle="dropdown">Products</a>
+                                <ul class="sub-menu dropdown-menu">
+                                    <li><a href="php-script.html">PHP Script</a></li>
+                                    <li><a href="html-template.html">HTML Templates</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu_has_children nav-item">
+                                <a class="nav-link" href="#" data-bs-toggle="dropdown">Hosting</a>
+                                <ul class="sub-menu dropdown-menu">
+                                    <li><a href="basic-hosting.html">Basic Shared Hosting</a></li>
+                                    <li><a href="premium-hosting.html">Premium Shared Hosting</a></li>
+                                    <li><a href="#">Virtual Private Server (VPS)</a></li>
+                                    <li><a href="#">Dedicated Server</a></li>
+                                    <li><a href="#">Remote Desktop (RDP)</a></li>
+                                    <li><a href="#">Data Center</a></li>
+                                    <li><a href="#">Domain Name Registration</a></li>
+                                </ul>
+                            </li>
+                            <!--====Sub-Menu End====-->
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                        </ul>
+
+                        <div class="nav-right">
+                            <button class="header__search-btn" type="button">
+                                <i class="las la-search"></i>
+                            </button>
+                            <form action="#" class="header-search-form" method="get">
+                                <input type="text" class="form--control" name="search" placeholder="Search here....">
+                                <button class="header-search-form__btn" type="submit">
+                                    <i class="las la-search"></i>
+                                </button>
+                            </form>
+                            <a href="#" class="btn btn-md btn--base d-flex align-items-center justify-content-center">Hire Us</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+<div class="main-wrapper">
+    <!--======Hero Section Start =======-->
+    <section class="hero hero-bg-img" style="background-image: url(./img/hero.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <div class="hero-subtitle text-white wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">Team of Creative</div>
+                    <h1 class="hero-title text-white wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">Designers & Developers</h1>
+                </div>
+            </div>
+        </div>
+        <div class="hero__bottom">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="hero__content__area">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-lg-5">
+                                    <h2 class="title text-white text-center text-lg-end wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.3s">We Develop Digital Strategies, Products and Services.</h2>
+                                </div>
+                                <div class="col-lg-6 mt-lg-0 mt-4">
+                                    <p class="description text-white text-lg-start text-center wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.7s">Creating fusion of visual design and technology to make awesome products that feel great on every desktop and mobile device also perform efficiently with minimum resource utilization and maximum performance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=======We can do Section======-->
+    <section class="pt-100 pb-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-7 col-md-11 col-lg-8">
+                    <div class="section-header text-center">
+                        <h2 class="section-title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">We Can Develop Your Dream</h2>
+                        <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">Architecting secure, efficient, and user-friendly applications and systems by writing standard, well-documented and efficient codes to turn ideas into reality.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.7s">
+                <div class="col-lg-3">
+                    <ul class="choose-us-list">
+                        <li>Unique Innovations</li>
+                        <li>Premium Quality</li>
+                        <li>Industry Standards</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="choose-thumb position-relative z-index-2">
+                        <img src="img/choose.jpg" alt="choose image" class="obj-fit w-100">
+                        <a href="#" class="video-button d-flex flex-warp justify-content-center align-items-center">
+                            <i class="las la-play"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="choose-us-list style--two text-lg-end">
+                        <li class="">500+ Unique Items</li>
+                        <li class="active">After Sales support</li>
+                        <li class="">Custom Development</li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====Feature Products Item Section Start=======-->
+    <secton class="pt-100 pb-100 section-bg-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-7 col-md-11 col-lg-8">
+                    <div class="section-header text-center">
+                        <h2 class="section-title text-white wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">Features Items</h2>
+                        <p class="text-white wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">Items with the current trends, special features, and something unique are here. In one word our best items are listed here.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center gy-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.7s">
+                <div class="col-xl-12 col-lg-10">
+                    <div class="featured-product">
+                        <div class="featured-product__thumb">
+                            <img class="w-100" src="img/featured-product-img.png" alt="Feature Products Images">
+                        </div>
+                        <div class="featured-product__content">
+                            <h3 class="title">
+                                <a href="#">RockHYIP - Complete HYIP Investment System</a>
+                            </h3>
+                            <p class="featured-product__details text-white">Are you looking for Complete, Secure, Responsive, Unique and Inovative HYIP Investment Script? RockHYIP is here to fullfill all your requirements. HYIP script which meets all your hyip and investment business needs. All-in-one...</p>
+                            <div class="row align-items-center mt-4">
+                                <div class="col-sm-8 order-sm-1 order-2">
+                                    <div class="btn-group">
+                                        <a href="#" class="default-btn btn--base featured-product-btn-active">Live Demo</a>
+                                        <a href="#" class="default-btn btn-md btn--base featured-product-btn">View Details</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 order-sm-2 order-1 text-sm-end mb-md-0 mb-3">
+                                    <h4 class="featured-product__price text--base">$199.00</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </secton>
+    <!--=====Lastest Products Item Section Start=======-->
+    <section class="pt-100 pb-100 overflow-hidden product-section-bg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-7 col-md-11 col-lg-8">
+                    <div class="section-header text-center">
+                        <h2 class="section-title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">Lastest Products</h2>
+                        <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">We are working on a daily basis to bring new, unique, standard, and trendy products. Check out the newest products from our awesome team.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center gy-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.7s">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="product-card">
+                        <div class="product-card__thumb">
+                            <img src="img/product-img-1.png" alt="Product image" class="w-100">
+                        </div>
+                        <div class="product-card__content">
+                            <h4 class="product-card__title"><a href="#">MineKing - Cloud Mining Platform</a></h4>
+                            <div class="d-flex flex-warp justify-content-between align-items-center mt-3">
+                                <ul class="product-card__rating d-flex align-items-center">
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                </ul>
+                                <div class="product-card__price text--base">$99.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="product-card">
+                        <div class="product-card__thumb">
+                            <img src="img/product-img-2.png" alt="Product image" class="w-100">
+                        </div>
+                        <div class="product-card__content">
+                            <h4 class="product-card__title"><a href="#">ICOKing - Initial Coin Offering Platform</a></h4>
+                            <div class="d-flex flex-warp justify-content-between align-items-center mt-3">
+                                <ul class="product-card__rating d-flex align-items-center">
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                </ul>
+                                <div class="product-card__price text--base">$99.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="product-card">
+                        <div class="product-card__thumb">
+                            <img src="img/product-img-3.png" alt="Product image" class="w-100">
+                        </div>
+                        <div class="product-card__content">
+                            <h4 class="product-card__title"><a href="#">AdsKing - Advertisement Network Platform</a></h4>
+                            <div class="d-flex flex-warp justify-content-between align-items-center mt-3">
+                                <ul class="product-card__rating d-flex align-items-center">
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                </ul>
+                                <div class="product-card__price text--base">$99.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="product-card">
+                        <div class="product-card__thumb">
+                            <img src="img/product-img-4.png" alt="Product image" class="w-100">
+                        </div>
+                        <div class="product-card__content">
+                            <h4 class="product-card__title"><a href="#">PTCKing - Pay Per Click Platform</a></h4>
+                            <div class="d-flex flex-warp justify-content-between align-items-center mt-3">
+                                <ul class="product-card__rating d-flex align-items-center">
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                    <li><i class="las la-star"></i></li>
+                                </ul>
+                                <div class="product-card__price text--base">$99.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mt-5 text-center">
+                    <a href="#" class="default-btn btn--base product-btn">Explore Our Products<span class="product-btn"><i class="las la-arrow-right"></i></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=====Overview Item Section Start=======-->
+    <Section class="pt-100 pb-100 dark--overlay bg_img" style="background-image: url(img/overview.jpg);">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-6">
+                    <div class="overview-item">
+                        <div class="overview-item__icon wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                            <div class="overview-item__amount">12+</div>
+                        </div>
+                        <div class="overview-item__content">
+                            <h4 class="overview-item__title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">Years Online</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="overview-item">
+                        <div class="overview-item__icon wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                            <div class="overview-item__amount">200+</div>
+                        </div>
+                        <div class="overview-item__content">
+                            <h4 class="overview-item__title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">Unique Items</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="overview-item">
+                        <div class="overview-item__icon wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                            <div class="overview-item__amount">10500+</div>
+                        </div>
+                        <div class="overview-item__content">
+                            <h4 class="overview-item__title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">Item Sold</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="overview-item">
+                        <div class="overview-item__icon wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                            <div class="overview-item__amount">8700+</div>
+                        </div>
+                        <div class="overview-item__content">
+                            <h4 class="overview-item__title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">Happy Clients</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!--=====Support BY Humans Section Start=======-->
+    <section class="pt-100 pb-100 overflow-hidden">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-7 col-md-11 col-lg-8">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">Supported By Humans</h2>
+                        <p>We put special emphasis on customer support. Our dedicated support team is waiting to assist you. We always try our level best to do so.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="human-support-card text-center">
+                        <div class="human-support-card__amount">4</div>
+                        <h4 class="human-support-card__title">Dedicated Support Staff</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="human-support-card text-center">
+                        <div class="human-support-card__amount">6</div>
+                        <h4 class="human-support-card__title">Days in a Week</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="human-support-card text-center">
+                        <div class="human-support-card__amount">10</div>
+                        <h4 class="human-support-card__title">Hours in a Day</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="human-support-card text-center">
+                        <div class="human-support-card__amount">120+</div>
+                        <h4 class="human-support-card__title">Avg. Daily Ticket Issued</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3 gy-4">
+                <div class="col-md-6">
+                    <div class="cta-card">
+                        <div class="cta-card__content">
+                            <h3 class="cta-card__title">Any Custom Idea?</h3>
+                            <p>Any awesome idea needs to turn into reality? or any customization needed?</p>
+                            <a href="#" class="default-btn">See A Meeting</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="cta-card">
+                        <div class="cta-card__content">
+                            <h3 class="cta-card__title">Facing Technical Issue?</h3>
+                            <p>Facing any technical dificulties with our products? Relax! We are here to assist you.</p>
+                            <a href="#" class="default-btn">Get Support</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====Testimonial Section Start=======-->
+    <secton class="pt-100 pb-100 dark--overlay bg_img" style="background-image: url(./img/testimonial.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-7 col-md-11 col-lg-8">
+                    <div class="section-header text-center">
+                        <h2 class="section-title text-white">What People Say</h2>
+                        <p>We care about our clients and they do the same for us. Have a look below and see what our awesome clients say about their experience with us!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="testimonial-slider">
+                        <div class="testimonial-content">
+                            <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque commodi sint id omnis porro architecto odit doloremque aut non cum eaque inventore, quia ex dignissimos ea incidunt.</p>
+                             <h5 class="mt-3 text-white">robert678</h5>
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque commodi sint id omnis porro architecto odit doloremque aut non cum eaque inventore, quia ex dignissimos ea incidunt. Ad sit iusto repudiandae placeat doloremque, repellendus culpa labore esse dolores.!</p>
+                             <h5 class="mt-3 text-white">robert678</h5>
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque commodi sint id omnis porro.</p>
+                             <h5 class="mt-3 text-white">robert678</h5>
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque commodi sint id omnis porro architecto odit doloremque aut non cum eaque inventore, quia ex dignissimos ea incidunt. Ad sit iusto repudiandae placeat doloremque, repellendus culpa labore esse dolores</p>
+                             <h5 class="mt-3 text-white">robert678</h5>
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque commodi sint id omnis porro architecto odit doloremque aut non cum eaque inventore, quia ex dignissimos ea incidunt. Ad sit iusto repudiandae placeat doloremque, repellendus culpa labore esse dolores quam architecto sunt iste explicabo sint impedit consectetur eaque aut nulla necessitatibus!</p>
+                             <h5 class="mt-3 text-white">robert678</h5>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </secton>
+    <!--=====Articles Section Start=======-->
+    <section class="pb-100 pt-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-7 col-md-11 col-lg-8">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">Latest Articles</h2>
+                        <p>Our offers, innovations, and the latest updates of our team are posted here. Read our latest announcements to know what we are doing. We also post some technology related article as well.</p>
+                    </div>
+                </div>
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-post h-100">
+                            <div class="blog-post__thumb">
+                                <img src="img/product-img-1.png" alt="Post Image" class="w-100">
+                            </div>
+                            <div class="blog-post__content">
+                                <p class="mb-2"><i class="las la-calendar text--base"></i>15 October 2022</p>
+                                <h3 class="blog-post__title"><a href="#">What is SSL Certificate &amp; Why We Need It For Our Business Website?</a></h3>
+                                <p class="blog-post__description mt-3">Significantly, when you are browsing the websites sometimes you have noticed the URL starting with and some times its and it has a lock icon in front of it. Well in the sm...</p>
+                                <a href="#" class="btn btn-sm btn--base mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-post h-100">
+                            <div class="blog-post__thumb">
+                                <img src="img//post-img-2.jpg" alt="Post Image" class="w-100">
+                            </div>
+                            <div class="blog-post__content">
+                                <p class="mb-2"><i class="las la-calendar text--base"></i>15 October 2022</p>
+                                <h3 class="blog-post__title"><a href="#">Why You Need Fully Mobile Friendly Responsive Website?</a></h3>
+                                <p class="blog-post__description mt-3">Certainly, from the last 12-15 years, there is a boom in the cellphone industry due to iPhone and android rivalry. We are seeing new smartphones a few times in the year with a bigger screen.</p>
+                                <a href="#" class="btn btn-sm btn--base mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-post h-100">
+                            <div class="blog-post__thumb">
+                                <img src="img/post-img-3.jpg" alt="Post Image" class="w-100">
+                            </div>
+                            <div class="blog-post__content">
+                                <p class="mb-2"><i class="las la-calendar text--base"></i>15 October 2022</p>
+                                <h3 class="blog-post__title"><a href="#">WWhat is Progressive Web Applications (PWA) &amp; Why You Need it?</a></h3>
+                                <p class="blog-post__description mt-3">The PWA or 'Progressive web applications' are web-based pseudo mobile applications that have the power to act like a native mobile app, but they can be created in less time and money invested in th..</p>
+                                <a href="#" class="btn btn-sm btn--base mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div><!---Main Wrapper End--->
+<!--===== Footer Section Start =======-->
+<footer class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="brand-slider">
+                <div class="brand-iteam">
+                    <img src="img/01.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/02.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/03.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/04.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/05.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/06.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/02.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/03.png" alt="brand-img">
+                </div>
+                <div class="brand-iteam">
+                    <img src="img/04.png" alt="brand-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-middle">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-sm-8">
+                    <div class="footer-widget">
+                        <a href="#" class="footer-logo">
+                            <img src="img/footer-logo.png" alt="footer-img">
+                        </a>
+                        <p class="mt-4">Founded in 2011. Architecting secure, efficient, and user-friendly items by writing standard and well-documented codes to turn ideas into reality. Working on a daily basis to bring unique, standard, and trendy products for various marketplace and clients.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6">
+                    <div class="footer-widget">
+                        <h3 class="footer-widget__title text-white">Company</h3>
+                        <ul class="short-link-list">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Timeline</a></li>
+                            <li><a href="#">Data Center</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Career with us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6">
+                    <div class="footer-widget">
+                        <h3 class="footer-widget__title text-white">Our Expertise</h3>
+                        <ul class="short-link-list">
+                            <li><a href="#">Web Application</a></li>
+                            <li><a href="#">Mobile Apps</a></li>
+                            <li><a href="#">UI/UX</a></li>
+                            <li><a href="#">Plugins & Extensions</a></li>
+                            <li><a href="#">IT Consultancy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6">
+                    <div class="footer-widget">
+                        <h3 class="footer-widget__title text-white">Terms</h3>
+                        <ul class="short-link-list">
+                            <li><a href="#">Announcements</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms Of Service</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">Licence Info</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6">
+                    <div class="footer-widget">
+                        <h3 class="footer-widget__title text-white">Support</h3>
+                        <ul class="short-link-list">
+                            <li><a href="#">F.A.Q</a></li>
+                            <li><a href="#">Get Support</a></li>
+                            <li><a href="#">Member Area</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Affiliate Program</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-6 col-md-8 text-center text-md-start">
+                    <h6 class="copyright-text text-white">
+                        <strong>© 2011 - 2022 THESOFTKING Limited. All Rights Reserved.</strong>
+                    </h6>
+                    <p class="mt-3">THESOFTKING Limited is not partnered with any other company or person. We work as a team and do not have any reseller, distributor, or partner!</p>
+                </div>
+                <div class="col-xl-4 col-md-4 mt-md-0 mt-sm-4 mt-4 ">
+                    <h6 class="text-white text-md-end text-center mb-md-4">Stay Connected</h6>
+                    <ul class="footer-soical-links d-flex align-items-center justify-content-center justify-content-md-end">
+                        <li><a href="#"><i class="lab la-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="lab la-twitter"></i></a></li>
+                        <li><a href="#"><i class="lab la-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="lab la-youtube"></i></a></li>
+                        <li><a href="#"><i class="lab la-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Jquery File-->    
+<script src="js/lib/jquery.min.js"></script>
+<!--Bootstrap-5-->
+<script src="js/lib/bootstrap.min.js"></script>
+<script src="js/lib/jquery-migrate-1.2.1.min.js"></script>
+<script src="plugins/slick-1.8.1/slick.min.js"></script>
+<script src="js/lib/wow.min.js"></script>
+<script src="js/app.js"></script>
+
+
+</body>
+</html>
